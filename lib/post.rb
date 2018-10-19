@@ -22,7 +22,7 @@ class Post
   def author_name
    name = Author.new(name)
    name = author.name
-   if name == nil
+   if self.author.name == nil
      return nil
    end
   end
