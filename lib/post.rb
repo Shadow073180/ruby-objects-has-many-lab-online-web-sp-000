@@ -20,12 +20,11 @@ class Post
   end
 
   def author_name
-   name = Author.new(name)
-   name = self.author.name
-   if self.author.name == nil
+  name = self.author.name
+   if name = nil
      return nil
    end
-  end
+ end
 
 
 
