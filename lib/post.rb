@@ -21,7 +21,7 @@ class Post
 
   def author_name
    name = Author.new(name)
-   name = author.name
+   name = self.author.name
    if self.author.name == nil
      return nil
    end
