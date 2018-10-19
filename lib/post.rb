@@ -21,6 +21,9 @@ class Post
 
   def author_name
   self.author.name
+  if author = nil
+    return nil
+  end
 
  end
 
